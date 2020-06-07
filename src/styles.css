@@ -1,0 +1,61 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+body {
+  margin: 0;
+  padding: 12px;
+  background: rgb(253, 253, 253);
+}
+h1,
+h2,
+h3 {
+  color: brown;
+}
+section {
+  min-height: 200px;
+}
+button {
+  margin: 5px;
+}
+ul.unstyled {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(#7c772f, #d4ce78);
+}
+nav ul li a {
+  float: left;
+  text-decoration: none;
+  padding: 14px;
+  display: block;
+  color: white;
+  text-align: center;
+}
+nav li a:hover {
+  background-color: #d8d284;
+  color: black;
+}
+nav ul li span {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: right;
+}
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(#717579, #a6aaad);
+  color: white;
+  text-align: center;
+}
